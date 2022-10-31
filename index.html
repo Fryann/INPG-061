@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <table class="table table-hover table-bordered border-warning">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+<!-- class image-fluid agar gambar tidak pecah dan mengikuti ukuran layar -->
+<!-- class image-thumbnail gambar akan memiliki border -->
+<!-- class rounded-fluid-start untuk di sisi kiri, rounded-fluid-end untuk di sisi kanan -->
+
+<!-- buat button, pake tag button bisa juga pake tag a class btn-btn-info -->
+<!-- class btn-btn-outline bikin button color jadi putih, kemudian ada outline warna -->
+<!-- class btn-lg untuk button large, btn-sm untuk button small -->
+<!-- atribute disabled agar button tidak dapat diklik -->
+<!-- class disabled juga bisa menonaktif button -->
+
+<!-- bs5-jumbotron-fluid  atau bs5-jumbotron-default-->
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+    <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+    <button class="btn btn-primary btn-lg" type="button">Example button</button>
+  </div>
+  </div>
+
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div
+      class="h-100 p-5 text-white bg-primary border rounded-3">
+      <h2>Change the background</h2>
+      <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
+        mix and match with additional component themes and more.</p>
+      <button class="btn btn-outline-primary" type="button">Example button</button>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div
+      class="h-100 p-5 bg-primary border rounded-3">
+      <h2>Add borders</h2>
+      <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure
+        to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both
+        column's content for equal-height.</p>
+      <button class="btn Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
+        mix and match with additional component themes and more." type="button">Example button</button>
+    </div>
+  </div>
+</div>
+
+<!-- alert buat munculin tulisan peringatan, bisa pake link juga setelah kata2 -->
+<!-- alert bisa juga pake icon -->
+
+<!-- pagination untuk memunculkan halaman previous, 1, 2, 3, next -->
+
+<!-- breadcrumb untuk main/sub/active -> active merupakan sub menu dari sub, dan sub merupakan sub menu dari main -->
+
+<!-- list itu untuk memunculkan menu bar -> strip 3 yg biasa di ujung kanan/kiri atas, bikin list ada list active, ada list disabled -->
+
+<!-- panel/card digunakan untuk memunculkan gambar dan tulisan seperti di tokopedia gambar/item -->
+
+<!-- navigation tab/tabs untuk bikin tab home, menu, profile -->
+<!-- dropdown dalam 1 menu bisa ada beberapa menu lg -->
+
+<!-- Form untuk buat form, untuk tampilan login awal -->
+<!-- radio button buat bikin kaya option bulet misal, kaya setuju atau tidak setuju -->
+
+<!-- grid system-> misal ada 5 kolom, ketika layar dikecilin maka akan pindah ke bawah kalo layar sudah tidak dapat menampung -->
+<!-- di bootstrap ada 12 bagian, bootstrap akan membaginya sama rata -->
+<!-- class col-6 akan membuat kolom mendapatkan 6 bagian -->
+<!-- kalo 1 kolom 6 bagian, 1 kolom 8 bagian, 1 kolom ga dikasih tau brp bagian maka kolom 1 akan di atas, kolom 2 akan di bawah, kolom 3 sisanya (12-8=4 bagian) -->
+<!-- grid system biasa di tampilan website, 1 layar dibagi jadi 2 bagian, 1 bagian adalah menu, 1 bagian adalah body -->
+
+<!-- untuk jalanin git
+https://linuxize.com/post/how-to-configure-git-username-and-email/
+trus di terminal -> copas linknya ganti username sm email -> untuk cek git config --list -->
+
+<!-- dari CDN vis Js-Delvr -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

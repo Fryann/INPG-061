@@ -1,0 +1,5 @@
+.border-warning{
+    border-color: black;
+    /* bootstrap punya strata terpenting, klo mau nimpa pake tag !important */
+}
+
